@@ -1,1 +1,1 @@
-# rsschool-cv
+https://PandaBoss13.github.io/rsschool-cv/cv
