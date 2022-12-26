@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  font-family: 'Inika', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 134px;
+  left: 0px;
+  top: 0px;
+  background: #EDF2EC;
+  padding: 42px 110px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 452px;
+  height: 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #010201;
+}
+
+.menu a:hover {
+  color: #E06733;
+  font-weight: 700;
+}
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  padding: 62px 109px;
+  font-family: 'Inter', sans-serif;
+  width: 1440px;
+  height: 532px;
+  background: #EDF2EC;
+  white-space: normal;
+}
+
+.welcome_title {
+  display: flex;
+  justify-content: space-between;
+  font-style: bold; 
+  font-weight: 700; 
+  font-size: 45px;
+  line-height: 50px;
+  line-height: 92%;
+  color: #717171;
+  width: 549px;
+  height: 101px;
+  line-height: 50px;
+}
+
+.welcome_description {
+  display: flex;
+  font-style: small-caps;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  width: 526px;
+  height: 105px;
+  line-height: 35px;
+}
+
+.bottom_learn_more {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  width: 158px;
+  height: 44px;
+  color: #000000;
+  border: 3px solid #E06733;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  width: 1438px;
+  height: 682px;
+  background: #FFFFFF;
+}
+
+.service {
+  width: 1439px;
+  height: 1292px;
+  background: #EDF2EC;
+}
+
+.prices {
+  width: 1439px;
+  height: 556px;
+  background: #FFFFFF;
+}
+
+.contacts {
+  width: 1439px;
+  height: 546px;
+  background: #EDF2EC;
+}
