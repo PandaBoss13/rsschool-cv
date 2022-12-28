@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .green-text {
   color: #499A18;
 }
@@ -254,10 +258,113 @@ header {
   }
 
 .prices {
+  display: flex;
+  justify-content: space-between;
   width: 1439px;
   height: 556px;
   background: #FFFFFF;
+  padding: 40px 109px 115px 109px;
 }
+  .left_wrapper {
+    width: 332px;
+    height: 391px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .right_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 452px;
+    height: 405px;
+  }
+
+  .prices_title {
+    display: flex;
+    justify-content: space-between;
+    width: 135px;
+    height: 49px;
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin: 0px;
+    
+  }
+
+  .prices_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    flex-direction: column;
+  }
+
+  .btn_prices {
+    display: flex;
+    display: flex;
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .prisec_description {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .prices_text {
+    width: 452px;
+    height: 93px;
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .btn_contact_us {
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background: #FFFFFF;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+
+  }
+
+  .leafs_size {
+    width: 152px;
+    height: 175px;
+  }
 
 .contacts {
   width: 1439px;
