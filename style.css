@@ -264,3 +264,57 @@ header {
   height: 546px;
   background: #EDF2EC;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 130px;
+  background: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  
+  align-items: center;
+  padding: 40px 109px;
+}
+  footer a {
+    text-decoration: none;
+  }
+
+  .footer_year {
+    display: flex;
+    justify-content: space-between;
+    width: 49px;
+    height: 50px;
+  }
+
+  .footer_git {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 182px;
+    height: 50px;
+  }
+
+  .footer_rss {
+    display: flex;
+    justify-content: space-between;
+    width: 211px;
+    height: 50px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 188px;
+    height: 50px;
+  }
+
+  .icons_size {
+    width: 32px;
+    height: 32px;
+  }
