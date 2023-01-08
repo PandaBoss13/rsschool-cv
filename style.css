@@ -6,12 +6,29 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+}
+
 .green-text {
   color: #499A18;
 }
 
 .red-text {
   color: #E06733;
+}
+
+.center_position_wrapper {
+  width: 1220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service_center_position_wrapper {
+  width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header {
@@ -21,11 +38,8 @@ header {
   font-size: 16px;
   line-height: 50px;
   display: flex;
-  justify-content: space-between;
-  width: 1440px;
+  justify-content: center;
   height: 134px;
-  left: 0px;
-  top: 0px;
   background: #EDF2EC;
   padding: 42px 110px;
 }
@@ -48,11 +62,11 @@ header {
 }
 .welcome {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 62px 109px;
   font-family: 'Inter', sans-serif;
-  width: 1440px;
   height: 532px;
+  width: 100%;
   background: #EDF2EC;
   white-space: normal;
 }
@@ -61,8 +75,6 @@ header {
     font-style: bold; 
     font-weight: 700; 
     font-size: 45px;
-    line-height: 50px;
-    line-height: 92%;
     color: #717171;
     width: 549px;
     height: 101px;
@@ -75,7 +87,6 @@ header {
     font-style: small-caps;
     font-weight: 400;
     font-size: 20px;
-    line-height: 35px;
     color: #636060;
     width: 526px;
     height: 105px;
@@ -100,9 +111,8 @@ header {
 
 .about {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 93px 107px 110px 109px;
-  width: 1438px;
   height: 682px;
   background: #FFFFFF;
 }
@@ -132,12 +142,12 @@ header {
 
 .service {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
-  width: 1439px;
   height: 1292px;
   background: #EDF2EC;
   padding: 40px 108px 113px 109px;
+  align-items: center;
 }
 
   .service_header {
@@ -149,6 +159,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 90px;
   }
 
   .service_title {
@@ -167,13 +178,12 @@ header {
 
   .service_buttons_wrapper {
     width: 559px;
-    height: 50px;
     display: flex;
     justify-content: space-between;
     }
   
-  .button_service_gardens {
-    width: 161px;
+  .service_button {
+    width: 160px;
     height: 50px;
     font-family: 'Inika';
     font-style: normal;
@@ -183,38 +193,6 @@ header {
     color: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .button_service_lawn {
-    width: 161px;
-    height: 50px;
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #E06733;
-    border: 1px solid #E06733;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .button_service_planting {
-    width: 161px;
-    height: 50px;
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #E06733;
-    border: 1px solid #E06733;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
   }
 
   .service_description{
@@ -227,15 +205,17 @@ header {
     font-style: normal;
   }
 
-  .garden_care {
+  .service_card {
     width: 330px;
     height: 450px;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 55px;
   }
+
+    .service_card:nth-child(3) {
+      margin-right: 0px;
+    }
 
   .service_head {
     color: #E06733;
@@ -259,8 +239,7 @@ header {
 
 .prices {
   display: flex;
-  justify-content: space-between;
-  width: 1439px;
+  justify-content: center;
   height: 556px;
   background: #FFFFFF;
   padding: 40px 109px 115px 109px;
@@ -367,15 +346,80 @@ header {
   }
 
 .contacts {
-  width: 1439px;
+  display: flex;
+  justify-content: center;
   height: 546px;
   background: #EDF2EC;
 }
 
+  .contact_text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    width: 195px;
+    height: 51px;
+    color: #499A18;
+    margin: 0px;
+  }
+
+  .content_wrapper {
+    width: 195px;
+    height: 51px;
+    margin-top: 60px;
+  }
+
+  .contact_us_img {
+    display: flex;
+    width: 400px;
+    height: 497px;
+  }
+
+  .img_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    align-content: end;
+  }
+
+  .btn_wrapper {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    margin-top: 140px;
+  }
+
+  .btn_city {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    background: #D6E7D2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px;
+  }
+
+  .arrow_size {
+    width: 16px;
+    height: 16px;
+  }
+
 footer {
   display: flex;
-  justify-content: space-between;
-  width: 1440px;
+  justify-content: center;
   height: 130px;
   background: #FFFFFF;
   font-family: 'Inter';
